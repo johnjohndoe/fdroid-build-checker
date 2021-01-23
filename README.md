@@ -24,7 +24,18 @@ pipenv run pre-commit install -t pre-commit
 pipenv run pre-commit install -t pre-push
 ```
 
+## Install
+
+```sh
+$ pip3 install --user git+https://github.com/johnjohndoe/fdroid-build-checker.git
+```
+
+
 ## Usage
+
+```sh
+$ python3 ~/.local/lib/python3.8/site-packages/fdroid_build_checker/
+```
 
 See [`fdroid_build_checker/__main__.py`](fdroid_build_checker/__main__.py)
 
