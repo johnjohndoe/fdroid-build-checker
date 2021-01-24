@@ -52,8 +52,9 @@ pipenv run python -m pytest
 See [Pipfile](Pipfile)
 
 
-## Related project
+## Related projects
 
+- *BuildNotify*, a CCMenu/CCTray equivalent for Ubuntu ([Source code][build-notify-sources], [Website][build-notify-website])
 - *F-Droid Build Status* app for Android ([Source code][fdroid-build-status-sources], [F-Droid][fdroid-build-status-fdroid])
 
 
@@ -83,6 +84,8 @@ the [sourcery-ai/python-best-practices-cookiecutter](https://github.com/sourcery
 project template.
 
 
+[build-notify-sources]: https://github.com/anaynayak/buildnotify
+[build-notify-website]: https://anaynayak.github.io/buildnotify/
 [fdroid]: https://f-droid.org
 [fdroid-build-status-fdroid]: https://f-droid.org/en/packages/de.storchp.fdroidbuildstatus/
 [fdroid-build-status-sources]: https://codeberg.org/pstorch/F-Droid_Build_Status
