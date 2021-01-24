@@ -51,6 +51,12 @@ pipenv run python -m pytest
 
 See [Pipfile](Pipfile)
 
+
+## Related project
+
+- *F-Droid Build Status* app for Android ([Source code][fdroid-build-status-sources], [F-Droid][fdroid-build-status-fdroid])
+
+
 ## License
 
 ```
@@ -78,4 +84,6 @@ project template.
 
 
 [fdroid]: https://f-droid.org
+[fdroid-build-status-fdroid]: https://f-droid.org/en/packages/de.storchp.fdroidbuildstatus/
+[fdroid-build-status-sources]: https://codeberg.org/pstorch/F-Droid_Build_Status
 [recent-changes]: https://f-droid.org/wiki/index.php?title=Special:RecentChanges&days=30&from=&hidebots=0&hideanons=1&hideliu=1&limit=500
