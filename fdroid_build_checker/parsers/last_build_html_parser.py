@@ -34,7 +34,7 @@ class LastBuildHtmlParser:
             schedule_data = urllib.request.urlopen(url)
             parser = etree.HTMLParser(recover=True)
             tree = etree.parse(schedule_data, parser)
-        except (ValueError, urllib.error.HTTPError) as e:
+        except (ValueError, urllib.error.HTTPError, urllib.error.URLError) as e:
             print(f"Error ({e}) loading file from URL: {url}")
             sys.exit(1)
         self.root = tree.getroot()
