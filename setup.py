@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="fdroid_build_checker",
-    version="0.0.2",
+    version="0.0.3",
     author="Tobias Preuss",
     author_email="tobias.preuss+fdroid-build-checker@googlemail.com",
     description="Python code to check if F-Droid recent build has succeeded or failed.",
